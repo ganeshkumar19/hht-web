@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+@font-face {
+  font-family: 'Neueregular';
+  src: url('../fonts/Neueregular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.careerformContainer{
+    padding-top: 50px;
+    box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 12px;
+    width: 100%;
+    background-color:#DDDBC6;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.machiReviewInfoContainer{
+  max-width: 700px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  text-align: center; /* Center-align text within the flex item */
+}
+
+.submitformButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 10px 30px;
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    background-color: #E84325;
+
+}
+
+.machicareerText{
+    font-family: "Montez", cursive;
+    font-size: 36px;
+    color: #F4E003;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.machiReviewInfo{
+  font-family: "Neueregular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+
+}
+
+.machicareerInfo{
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 22px;
+  text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff; 
+}
+
+@media (min-width: 576px) {
+    .machicareerText{
+        font-size: 38px;
+    }
+    
+    .machicareerInfo{
+      font-size: 26px;
+    }
+    .machiReviewInfo{
+      font-family: "Neueregular", sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      color: black;
+
+    }
+   }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .machicareerText{
+        font-size: 40px;
+    }
+    
+    .machicareerInfo{
+      font-size: 28px;
+    }
+    .machiReviewInfo{
+      font-family: "Neueregular", sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: black;
+
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .machicareerText{
+        font-size: 42px;
+    }
+    
+    .machicareerInfo{
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .machicareerText{
+        font-size: 44px;
+    }
+    
+    .machicareerInfo{
+      font-size: 32px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    
+
+  }

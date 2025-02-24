@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Neueregular';
+  src: url('../fonts/Neueregular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-profile-image {
+    display: none;
+  }
+  
+.nav-profile-text {
+    display: block;
+}
+
+.nav-link {
+  font-family: "Neueregular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(252, 248, 248);
+}
+
+@media (min-width: 768px) { /* Adjust this value based on your theme's breakpoints */
+    .nav-profile-image {
+      display: block;
+      width: 40px;
+    }
+    .nav-profile-text {
+      display: none;
+    }
+}

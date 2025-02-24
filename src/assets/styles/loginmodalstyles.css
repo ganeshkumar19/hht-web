@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.loginModal{
+    border-radius: 0 !important;
+}
+
+
+.modalLoginBody{
+    background-color: #3EA66B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.loginModal .modal-header,
+.loginModal .modal-body,
+.loginModal .modal-footer {
+    border: none;
+    border-radius: 0 !important;/* Removes borders inside the modal */
+}
+
+.loginModal .modal-content {
+    position: relative;
+    box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.8); /* Adds shadow around the modal */
+    border: none;
+    border-radius: 0 !important; /* Ensures no border around the modal */
+}
+
+.dragonLoginContainer{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 2px;
+    left: 0;
+}
+.strLoginContainer{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    bottom: 5px;
+    right: 0;
+}
+
+.drlogincontainerImage, .strlogincontainerImage{
+    width: 100%;
+    height: auto;
+}
+.modalloginfooter{
+    background-color: #3EA66B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: none;
+}
+
+.modalLoginBody h4{
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #223955;
+} 
+
+.modalLoginBody p{
+    font-family: "Neueregular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+} 
+
+
+
+.loginButton{
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #E84325;
+    text-align: center;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    color: #DDDBC6;
+    font-family: 'NeueBold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancelloginButton{
+    padding: 10px 33px;
+    background-color: transparent;
+    border: 1px solid #E84325;
+    color: black;
+}
+
+@media (min-width: 576px) {
+    .modalLoginBody h4{
+        font-size: 22px;
+    } 
+    
+    .modalLoginBody p{
+        font-family: "Neueregular", sans-serif;
+        font-size: 20px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .modalLoginBody h4{
+        font-size: 26px;
+    } 
+    
+    .modalLoginBody p{
+        font-family: "Neueregular", sans-serif;
+        font-size: 22px;
+    } 
+}

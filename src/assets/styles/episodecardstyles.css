@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.barCardContainer{
+    height: auto;
+    border-radius: 5px;
+}
+.episodeCardImage{
+    width: 100%;
+    height: auto;
+}
+
+.epButton{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3EA66B;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    font-family: 'Neuebold';
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    border: 1px solid black;
+}

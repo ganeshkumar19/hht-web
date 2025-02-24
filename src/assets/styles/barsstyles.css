@@ -1,0 +1,47 @@
+
+.barsContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    min-height: 1000px;
+}
+
+.barNameContainer{
+    width: 100%;
+    padding: 50px;
+    background-color: #F5BE49;
+    text-align: center;
+}
+
+.barNameContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #57A5BB;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000; 
+}
+
+.barText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F5BE49;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+
+}

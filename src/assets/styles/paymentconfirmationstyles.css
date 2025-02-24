@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paymentConfirmModal {
+    border-radius: 0 !important;
+    /* Added important to override any previous radius */
+}
+
+
+
+.paymentconfirmbody {
+    background-color: #3EA66B;
+    color: white;
+    padding: 20px;
+    border-radius: 0 !important;
+}
+
+.paymentConfirmModal .modal-header,
+.paymentConfirmModal .modal-body,
+.paymentConfirmModal .modal-dialog,
+.paymentConfirmModal .modal-footer {
+    border: none;
+    border-radius: 0 !important; /* Added important */
+}
+
+.paymentConfirmModal .modal-dialog {
+    max-height: 600px; /* Ensuring that the dialog doesn't exceed this height */
+    overflow-y: auto;
+    border-radius: 0 !important; 
+    /* Added important */
+}
+
+.paymentConfirmModal .modal-content {
+    max-height: 600px;  /* Same as modal-dialog to reinforce the maximum height */
+    overflow-y: auto; /* Allows scrolling */
+    border-radius: 0 !important; 
+    box-shadow: 6px 6px 0px 2px rgba(0, 0, 0, 0.8);/* Added important */
+}
+
+.paymentUserInfo{
+    font-family: "Neueregular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #DDDBC6;
+}
+
+.paymentUserDetails{
+    font-family: "Neueregular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.ptcText {
+    font-family: "Neuebold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #DDDBC6;
+}
+
+.pcName {
+    font-family: "Neueregular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.pcPrice {
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+.pcSizeQty {
+    font-family: "Neueregular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #DDDBC6;
+}
+
+.paymentamountTotal {
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.paymentConfirmButton {
+    padding: 10px 30px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .paymentUserInfo{
+        font-size: 16px;
+    }
+    
+    .paymentUserDetails{
+        font-size: 14px;
+    }
+    .ptcText {
+        font-size: 18px;
+    }
+
+    .pcName {
+        font-size: 14px;
+    }
+
+    .pcPrice {
+        font-size: 14px;
+    }
+
+    .pcSizeQty {
+        font-size: 12px;
+    }
+
+    .paymentamountTotal {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .paymentUserInfo{
+        font-size: 18px;
+    }
+    
+    .paymentUserDetails{
+        font-size: 16px;
+    }
+    .ptcText {
+        font-size: 20px;
+    }
+
+    .pcName {
+        font-size: 16px;
+    }
+
+    .pcPrice {
+        font-size: 16px;
+    }
+
+    .pcSizeQty {
+        font-size: 14px;
+    }
+
+    .paymentamountTotal {
+        font-size: 18px;
+    }
+
+    .paymentConfirmModal .modal-dialog {
+        max-height: 500px; /* Ensuring that the dialog doesn't exceed this height */
+        overflow-y: auto; /* Allows scrolling */
+        border-radius: 0 !important; /* Added important */
+    }
+
+    .paymentConfirmModal .modal-content {
+        max-height: 500px; /* Same as modal-dialog to reinforce the maximum height */
+        overflow-y: auto; /* Allows scrolling */
+        border-radius: 0 !important; /* Added important */
+    }
+
+    .paymentConfirmModal .modal-content::-webkit-scrollbar {
+        width: 6px; /* Minimal width to keep it functional but less noticeable */
+        background-color: transparent; /* Ensures scrollbar does not have a background */
+    }
+
+    .paymentConfirmModal .modal-content::-webkit-scrollbar-thumb {
+        background-color: rgba(220, 20, 60, 0.5); /* Same color as your proceed button but with transparency */
+    }
+}
+
+@media (min-width: 992px) {
+    .paymentUserInfo{
+        font-size: 20px;
+    }
+    
+    .paymentUserDetails{
+        font-size: 18px;
+    }
+    .ptcText {
+        font-size: 22px;
+    }
+
+    .pcName {
+        font-size: 18px;
+    }
+
+    .pcPrice {
+        font-size: 18px;
+    }
+
+    .pcSizeQty {
+        font-size: 16px;
+    }
+
+    .paymentamountTotal {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Cocogotic';
+    src: url('../fonts/coco-gothic.bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Bernoru';
+    src: url('../fonts/Bernoru.otf') format('opentype');
+    font-style: normal;
+    
+}
+.musicDirContainer{
+    width: 100%;
+    background-color: #3EA66B;
+    overflow: hidden;
+}
+.mdContainer{
+    background-color: #FFD83F;
+    border-radius: 32px;
+    border: 1px solid black;
+    width: 90%;
+    transform: rotate(-3deg); 
+    margin-bottom: 40px;
+}
+
+.mdtext{
+  font-family: "Cocogotic", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  transform: rotate(-1deg);
+  margin: 0;
+}
+
+.musicDirName{
+    font-family: "Bernoru", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 34px;
+    color: #ff6953;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.musicCard {
+    position: relative;
+    width: 100px;
+    padding: 1px;
+    background-color: #FFFBE0;
+    border: 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -2px;
+    z-index: 1; /* Ensure proper stacking */
+}
+
+.iconContainer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -15px;
+    top: 20%;
+    z-index: 10;
+    background-color: #5CD1FF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titleText {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 10px; /* Adjust based on your design needs */
+    margin: 0;
+    white-space: normal; /* Ensures default wrapping without cutting off words */
+    word-break: keep-all; /* Prevents breaking the words at inappropriate places */
+    overflow-wrap: break-word; /* Ensures long words go to the next line if needed */
+}
+
+.musicSwiper {
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.musicImage {
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: rgb(238, 235, 235) 0px 4px 12px, rgba(255, 255, 255, 0.24) 0px 1px 2px;
+}
+
+@media (min-width: 576px) {
+    .mdContainer{
+        width: 90%;
+    }
+    .mdtext{
+       font-size: 30px;
+    }
+    .titleText{
+       font-size: 10px;
+       margin-left: 5px;
+     }  
+     .musicSwiper {
+       width: 80%;
+       min-height: 600px;
+     }
+     .musicDirName{
+        padding-bottom: 30px;
+     }
+   
+    .musicImage {
+        width: 100%;
+     }
+     .musicCard{
+        width: 160px;
+        padding: 4px;
+    }
+    .titleText{
+        font-size: 15px;
+    } 
+    .iconContainer {
+       width: 35px;
+       height: 35px;
+       left: -15px;
+    }
+    .musicDirName{
+        font-size: 36px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .musicSwiper {
+        width: 60%;
+    }
+    
+    .musicImage {
+        width: 100%;
+    }
+    .mdContainer{
+        width: 100%;
+        transform: rotate(0deg); 
+    }
+    .musicDirName{
+        transform: rotate(-4deg); 
+     }
+    .musicCard{
+        width: 160px;
+        padding: 4px;
+    }
+    .titleText{
+        font-size: 15px;
+    }   
+    .mdtext{
+       font-size: 30px;
+       text-align: center;
+       transform: rotate(0deg); 
+     }
+     .musicDirName{
+        font-size: 40px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .mdContainer{
+        width: 100%;
+      }
+    .mdtext{
+       font-size: 30px;
+       text-align: center;
+    }
+    .musicCard{
+        width: 160px;
+        padding: 4px;
+     }
+
+     .titleText{
+        font-size: 15px;
+    }   
+    .musicSwiper {
+        width: 80%;
+        padding-left: 20px;
+    }
+    .musicImage {
+        width: 100%;
+        height: 100%;
+    }
+    .musicDirName{
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .musicDirContainer{
+        padding-bottom: 30px;
+    }
+    .mdContainer{
+        width: 100%;
+        transform: rotate(-3deg); 
+      }
+      .mdtext{
+       font-size: 30px;
+       text-align: center;
+     }
+     .musicSwiper {
+        width: 70%;
+        padding-left: 20px;
+    }
+    .musicImage {
+        width: 100%;
+    }
+     .musicCard{
+        width: 150px;
+        padding: 4px;
+        border-radius: 10px;
+     }
+
+     .titleText{
+        font-size: 15px;
+    }
+    .musicDirName{
+        font-size: 48px;
+    }   
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .mdContainer{
+        width: 100%;
+        transform: rotate(-3deg); 
+    }
+    .musicDirContainer{
+        padding-bottom: 20px;
+    }
+    .mdtext{
+       font-size: 30px;
+       text-align: center;
+    }
+    .musicCard{
+        width: 160px;
+        padding: 4px;
+     }
+     .iconContainer {
+        padding: 20px;
+     }
+     .titleText{
+        font-size: 15px;
+    } 
+    .musicSwiper {
+        width: 60%;
+        min-height: 800px;
+        padding-left: 20px;
+    }
+    .musicImage {
+        width: 100%;
+    } 
+}

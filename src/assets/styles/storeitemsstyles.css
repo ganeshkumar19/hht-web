@@ -1,0 +1,75 @@
+.storeContainer{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.storeText{
+    font-family: "NeueMachinaBold", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #DDDAC5
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;  /* Adjust based on your layout needs */
+    height: auto; /* Adjust based on your layout needs */
+  }
+  
+  .storeImage {
+    width: 100%;  /* This ensures that the main image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+.headingText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #DDDAC5
+}
+
+.descStoreText{
+    font-family: "NeueMachinaRegular", cursive;
+    text-align: center;
+    font-size: 14px;
+    color: #DDDAC5
+}
+
+
+@media (min-width: 576px) {
+    .descStoreText{
+        font-size: 18px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .descStoreText{
+        font-size: 16px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .descStoreText{
+        font-size: 14px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .descStoreText{
+        font-size: 22px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .descStoreText{
+        font-size: 24px;
+    }
+}
+  

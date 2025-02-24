@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuethin';
+    src: url('../fonts/Neuethin.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueMedium';
+    src: url('../fonts/NeueMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+.postCardContainer{
+    width: 95%;
+    max-width: 780px;
+    background-color: white;
+    border: 1px solid #000;
+    position: relative;
+}
+.ppContainer{
+    width: 100%;
+}
+.ppimagecontainer{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.ppimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.ppnametext{
+    font-family: 'Neuebold';
+    font-size: 14px;
+    font-weight: 600;
+    color: #223955;
+}
+
+.pplocationtext{
+    font-family: 'Neuethin';
+    font-size: 10px;
+    font-weight: 400;
+    color: #6C819B;
+}
+
+.postDesText{
+    font-family: 'NeueMedium', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.postImageContainer{
+    width: 100%;
+}
+
+.postImage1{
+    width: 100%;
+}
+
+.commentInputContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
+}
+
+.commentTextinputContainer{
+    flex-grow: 1;  /* Allow it to grow to fill available space */
+    display: flex;
+    align-items: center;
+    width: 94%;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+}
+
+.postTextInput {
+    flex-grow: 1;  /* Allow the input field to grow */
+    border: none;
+    outline: none;
+    padding-left: 6px;
+    font-size: 14px; /* Adjustable based on your preference */
+}
+
+.postTextInput::placeholder {
+    color: #A4B6C6; /* Light gray placeholder text */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+.sendButton {
+    background: none;
+    border: none;
+    color: #E84325; /* Bootstrap primary blue */
+    cursor: pointer; /* Cursor pointer for clickable effect */
+    font-size: 10px;
+}
+
+.FaHeart {
+    width: 3vw; /* Scales with viewport width but you can set min-width for control */
+    height: 3vw; /* Scales with viewport height but you can set min-height for control */
+    min-width: 20px; /* Ensures it doesn't get smaller than 20px */
+    min-height: 20px; /* Ensures it doesn't get smaller than 20px */
+}
+
+
+.commentPopup {
+    position: absolute;
+    bottom: 60px; /* Adjust this value based on your needs */
+    left: 10px; /* Keep some margin from the left */
+    right: 10px; /* Keep some margin from the right */
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 100; /* Ensure it's above other content */
+  }
+  
+
+@media (min-width: 576px) {
+    .postCardContainer{
+        width: 100%;
+    }
+    .FaHeart {
+        width: 2vw; /* Scales with viewport width but you can set min-width for control */
+        height: 2vw; /* Scales with viewport height but you can set min-height for control */
+        min-width: 10px; /* Ensures it doesn't get smaller than 20px */
+        min-height: 10px; /* Ensures it doesn't get smaller than 20px */
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .ppimagecontainer{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+    .ppimage{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .ppnametext{
+        font-size: 16px;
+    }
+    
+    .pplocationtext{
+        font-size: 13px;
+    }
+    .postDesText{
+        font-size: 16px;
+    }
+  }
+
+ @media (min-width: 992px) {
+    .postDesText{
+        font-size: 18px;
+    }
+ }
+ 
+ @media (min-width: 1200px) {
+ }
+ 
+ /* Extra extra large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+   
+
+ }

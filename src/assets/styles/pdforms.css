@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pdPageContainer{
+    background-color:#DDDBC6;
+}
+
+.pdContainer{
+    background-color: #3EA66B;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+.nameInput{
+    margin-bottom: 7px;
+}
+
+.pdFormHeading{
+    font-family: 'Neuebold';
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFDB61;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+
+}
+
+.pdForms input, .pdForms textarea {
+    background-color: #DDDBC6;
+    border-radius: 0;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000; /* Input background color */
+    border: 1px solid black;
+
+}
+
+.pdForms input::placeholder, .pdForms textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #B0B0A7;
+}
+
+/* Ensure the text area placeholder gets the style */
+.pdForms textarea::placeholder {
+    color: #B0B0A7;
+}
+
+
+  
+.pdForms textarea {
+    height: 100px;
+    border-radius: 0; /* Set textarea height */
+  }
+  
+.pdlabel {
+    font-family: 'Neueregular';
+    font-size: 13px;
+    font-weight: 400;
+    color: #DDDBC6;
+}
+
+.feedbackInputText{
+    font-family: 'Neueregular';
+    font-size: 10px;
+    font-weight: 400;
+    color: #DDDBC6;
+}
+
+@media (min-width: 363px) {
+    .pdContainer{
+        max-width: 330px;
+    }
+}
+@media (min-width: 399px) {
+    .pdContainer{
+        max-width: 380px;
+    }
+    .feedbackInputText{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    .pdContainer{
+        max-width: 540px;
+    }
+    .pdlabel {
+        font-size: 18px;
+    }
+    .pdForms input::placeholder, .pdForms textarea::placeholder {
+        font-size: 14px;
+    }
+    .feedbackInputText{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pdContainer{
+        min-width: 720px;
+    }
+    .pdlabel {
+        font-size: 20px;
+    }
+    .pdForms input::placeholder, .pdForms textarea::placeholder {
+        font-size: 16px;
+    }
+    .pdFormHeading{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pdContainer{
+        min-width: 780px;
+    }
+    
+  }
+
+  @media (min-width: 1400px) {
+    .pdContainer{
+        min-width: 920px;
+    }
+  }
+  

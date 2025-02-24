@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+.addressChangeModal {
+    border-radius: 0 !important;
+    /* Added important to override any previous radius */
+}
+
+.addressChangeModal .modal-header,
+.addressChangeModal .modal-body, 
+.addressChangeModal .modal-footer{
+    background-color: #DDDBC6;
+    padding: 20px;
+    border-radius: 0 !important;
+}
+
+.addressChangeModalContainer{
+    background-color: #DDDBC6;
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: 10px; /* Apply border-bottom to all */
+}
+
+.addressChangeModal .modal-header,
+.addressChangeModal .modal-body,
+.addressChangeModal .modal-dialog,
+.addressChangeModal .modal-footer {
+    border: none;
+    border-radius: 0 !important; /* Added important */
+}
+
+
+
+.choosenCatInfoContainer {
+    border-bottom: 2px solid #000;
+}
+
+.choosenCatInfoContainer:nth-child(2) {
+    border-top: 2px solid #000; /* Apply border-top only to the first child */
+}
+
+
+.addnewaddressbutton{
+    padding: 10px 50px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+.cdaText{
+    font-family: "Neuebold", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+.choosenCatIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.choosenCatText{
+    font-family: "Neuebold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.choosenCatInfo{
+    font-family: "Neueregular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.selected-address {
+    background-color: #57A5BB; /* Highlight selected address */
+}
+
+@media (min-width: 768px) {
+    .addressChangeModalContainer::-webkit-scrollbar {
+        width: 6px; /* Minimal width to keep it functional but less noticeable */
+        background-color: transparent; /* Ensures scrollbar does not have a background */
+    }
+    
+    .addressChangeModalContainer::-webkit-scrollbar-thumb {
+        background-color: #57A5BB; /* Same color as your proceed button but with transparency */
+    }
+  }

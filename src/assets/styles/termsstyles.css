@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuelight';
+    src: url('../fonts/Neuelight.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.termsPageContainer{
+    width: 100%;
+    background-color: #57A5BB;
+    padding-left: 0;
+    min-height: 500px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.termTitleText{
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+}
+
+.termDescText{
+    font-family: "Neuelight", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    color: #DDDBC6;
+    text-align:justify;
+}
+
+.termheadingText{
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+
+.termspanText{
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .termTitleText{
+    font-size: 24px;
+  }
+  .termDescText{
+    font-size: 16px;
+  }
+  .termspanText{
+    font-size: 16px;
+  }
+  .termDescText{
+    font-size: 16px;
+  }
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .termTitleText{
+        font-size: 28px;
+      }
+      .termDescText{
+        font-size: 20px;
+      }
+      .termspanText{
+        font-size: 20px;
+     }
+     .termDescText{
+        font-size: 18px;
+      }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .termTitleText{
+        font-size: 32px;
+      }
+      .termDescText{
+        font-size: 24px;
+      }
+      .termspanText{
+        font-size: 24px;
+     }
+     .termDescText{
+        font-size: 20px;
+      }
+
+  }
+  
+  @media (min-width: 1200px) {
+    .termTitleText{
+        font-size: 36px;
+      }
+      .termDescText{
+        font-size: 28px;
+      }
+      .termspanText{
+        font-size: 22px;
+     }
+     .termDescText{
+        font-size: 22px;
+      }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }

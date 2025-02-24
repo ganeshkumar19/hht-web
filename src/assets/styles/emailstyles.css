@@ -1,0 +1,66 @@
+.emailContainer{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: #56A5BB;
+    overflow: hidden;
+}
+
+.emailHeadingText{
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #000000
+}
+
+.emailButton {
+    background-color: #000000; /* Button background color */
+    color: #56A5BB;
+    font-family: "Anton", sans-serif;
+    font-weight: 400; /* Transparent text */
+    font-size: 28px; /* Adjust font size as needed */
+    border: none;
+    outline: none;
+    border-radius: 5PX;
+    padding: 10px 10px; /* Padding for the button */
+    position: relative; /* To position the icon correctly */
+    overflow: hidden; /* Keeps the pseudo-elements inside */
+  }
+  
+.emailButton::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight white overlay */
+    z-index: -1; /* Behind the text */
+}
+  
+.emailButton .fa-arrow-right {
+    margin-left: 10px; /* Space between text and icon */
+    color: #FFFFFF; /* Icon color */
+}
+
+@media (max-width: 767px) {
+    .emailHeadingText{
+      font-size: 30px;
+    }
+    .emailButton{
+      font-size: 20px;
+    }
+}
+  
+  @media (min-width: 768px) and (max-width: 991px) { /* Target MD devices */
+    .emailHeadingText {
+      font-size: 35px;
+    }
+  }
+  
+@media (min-width: 992px) and (max-width: 1200px) {
+    .emailHeadingText {
+      font-size: 35px;
+    }
+}

@@ -1,0 +1,106 @@
+
+.hhthubContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    min-height: 1000px;
+}
+
+
+
+.articleText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F5BE49;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+}
+
+.hubContainer {
+    margin-top: 80px;
+}
+
+.hubBtn{
+    padding: 10px 30px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hubBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally centers the content */
+}
+
+.csText {
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Additional styles to vertically center 'JAMS' and 'Coming Soon' */
+.jamsBtnContainer {
+    justify-content: center; /* Vertically centers the content in the column */
+    height: 100%; /* Adjust height as necessary */
+}
+
+
+@media (min-width: 576px) {
+    .hubBtn{
+        padding: 10px 40px;
+        background-color: #E84325;
+        font-size: 20px; /* Red background */
+    }
+    .csText{
+        font-size: 18px;
+    }
+    
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .hubBtn{
+        padding: 10px 50px;
+        background-color: #E84325;
+        font-size: 24px; /* Red background */
+    }
+    .csText{
+        font-size: 20px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    
+  }
+  
+  @media (min-width: 1200px) {
+    
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    
+  }
+

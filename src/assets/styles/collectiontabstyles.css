@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'NeueMedium';
+    src: url('../fonts/NeueMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.category-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px; 
+}
+
+.category-box {
+    flex: 0 0 auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: #E84325;
+    color: white;
+    font-family: "NeueMedium", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.category-container::-webkit-scrollbar {
+    display: none;
+}
+
+.category-box.active { 
+    background-color: #DDDBC6;
+    color: #DC143C;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .category-container::-webkit-scrollbar {
+        display: block;
+        height: 4px;
+    }
+    
+    .category-container::-webkit-scrollbar-thumb {
+        display: block;
+        background: #888;
+    }
+    
+    .category-container::-webkit-scrollbar-thumb:hover {
+        display: block;
+        background: #555;
+    }
+    
+  }
+
+  @media (min-width: 1200px) {
+    .category-box{
+        font-size: 14px;
+    }
+    .category-box.active{
+        font-size: 17px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .category-box{
+        font-size: 20px;
+    }
+    .category-box.active{
+        font-size: 24px;
+    }
+  }

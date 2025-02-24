@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.otploginContainer{
+    background-color:#DDDBC6;
+    min-height: 1200px;
+    position: relative;
+}
+
+.loginStarTopLeft {
+    position: absolute;
+    top: 20px;  
+    left: 20px;
+    width: 40px;
+  }
+  
+  .loginStarBottomRight {
+    position: absolute;
+    bottom: 10px; 
+    right: 20px;
+    width: 30px; 
+  }
+
+.loImageContainer{
+    width: 100%;
+}
+
+.loginlogo{
+    width: 50%;
+}
+
+.hhtNameContainer{
+    width: 100%;
+}
+
+.hellohhttext{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F5BE49;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+}
+
+.hhtLoginContainer{
+    background-color: #57A5BB;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+}
+
+.mntext{
+    font-family: 'Neuebold';
+    font-size: 16px;
+    font-weight: 700;
+    color: #DDDBC6;
+    margin: 0;
+    margin-left: 2px;
+    padding: 10px;
+}
+
+.otpinputContainer{
+    width: 100%;
+}
+.otpTextinput{
+    width: 95%;
+    border: 2px solid black;
+    background-color: #DDDBC6;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+
+}
+
+.otpTextinput::placeholder{
+    color: #B0B0A7; /* Light gray placeholder text */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.otpbutton{
+    padding: 10px 30px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer; 
+}
+
+.orContainerText{
+    font-family: 'Neueregular';
+    font-size: 12px;
+    color: #DDDBC6;
+}
+
+
+.googleButton {
+    display: flex;
+    align-items: center;
+    background-color: #DDDBC6; 
+    color: #DB4437; 
+    padding: 12px;
+    font-family: 'Neuebold', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+  }
+  
+.googleButton:hover {
+    background-color: #f4f4f4; /* Lighter on hover */
+}
+
+.dnaText{
+    color: #DDDBC6; /* Light gray placeholder text */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dnaRegisterText{
+    color: #E84325; /* Light gray placeholder text */
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.loginStarContainer{
+    position: absolute;
+    top: 20px; /* Top left corner */
+    left: 20px;
+}
+
+.otpVerifyContainer{
+    background-color: #57A5BB;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+}
+
+.loginStarContainer2{
+    position: absolute;
+    bottom: 10px; /* Bottom right corner */
+    right: 20px;
+}
+
+.loginstarImage{
+    width: 40px; /* Adjust size as necessary */
+}
+.loginstarImage2{
+    width: 30px;
+}
+
+.otvsText{
+    font-family: 'Neuebold';
+    font-size: 16px;
+    font-weight: 700;
+    color: #DDDBC6;
+}
+.otvnumText{
+    font-family: 'Neueregular';
+    font-size: 12px;
+    color: #DDDBC6;
+}
+
+.otpInputBoxes {
+    margin: 20px 0;
+}
+
+.otpBox {
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    border: 1px solid #DDDBC6;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #DDDBC6;
+    background-color: transparent;
+}
+
+.resendOtpContainer {
+    justify-content: flex-start; /* Aligns content to the left by default */
+    width: 100%; /* Ensures the container takes full width */
+}
+
+.timerspan {
+    margin-left: auto;
+    font-family: 'Neuebold';
+    font-size: 14px;
+    font-weight: 700;
+    color: #DDDBC6; /* Pushes the timer to the right */
+}
+
+.resendOtpText {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Ensures the text can take the full width if no timer is visible */
+}
+
+.resendOtpText{
+    font-family: 'Neuebold';
+    font-size: 14px;
+    font-weight: 700;
+    color: #DDDBC6;
+}
+
+@media (min-width: 576px) {
+    .loginlogo{
+        width: 30%;
+    }
+    .mntext{
+        font-size: 18px;
+    }
+    .otpTextinput::placeholder{
+        font-size: 18px;
+    }
+    .loginstarImage{
+        width: 50px; /* Adjust size as necessary */
+    }
+    .loginstarImage2{
+        width: 40px;
+    }
+    .otpInputBoxes {
+        margin: 20px 0;
+    }
+    .otvsText{
+        font-size: 20px;
+    }
+    .otvnumText{
+        font-size: 14px;
+    }
+    
+    .otpBox {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .loginlogo{
+        width: 25%;
+    }
+    .mntext{
+        font-size: 20px;
+    }
+    .otpTextinput::placeholder{
+        font-size: 19px;
+    }
+    .otvsText{
+        font-size: 22px;
+    }
+    .otvnumText{
+        font-size: 16px;
+    }
+    
+    .otpBox {
+        width: 45px;
+        height: 45px;
+    }
+}
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .hhtLoginContainer{
+        min-width: 600px;
+    }
+    .otpVerifyContainer{
+        min-width: 600px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .hhtLoginContainer{
+        min-width: 500px;
+    }
+    .loginlogo{
+        width: 25%;
+    }
+    .mntext{
+        font-size: 24px;
+    }
+    .otpTextinput{
+        padding: 20px;
+    
+    }
+    .otpTextinput::placeholder{
+        font-size: 20px;
+    }
+    .orContainerText{
+        font-size: 18px;
+    }
+    
+    
+    .googleButton {
+        display: flex;
+        align-items: center;
+        background-color: #DDDBC6; 
+        color: #DB4437; 
+        padding: 18px;
+        font-family: 'Neuebold', sans-serif;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+      }
+      
+    .googleButton:hover {
+        background-color: #f4f4f4; /* Lighter on hover */
+    }
+    
+    .dnaText{
+        font-size: 20px;
+    }
+    
+    .dnaRegisterText{
+       font-size: 28px;
+    }
+    .loginStarBottomRight{
+        width: 40px; /* Adjust size as necessary */
+    }
+    .loginStarTopLeft{
+        width: 60px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+}
+

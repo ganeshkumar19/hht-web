@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'Neuethin';
+    src: url('../fonts/Neuethin.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montezbold';
+    src: url('../fonts/Montezbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueRegular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuenormal';
+    src: url('../fonts/Neuenormal.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.productDetailContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    padding-left: 0;
+    min-height: 1000px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.detailNameContainer{
+    width: 100%;
+    padding: 20px;
+    background-color: #3EA66B;
+    text-align: center;
+
+}
+
+.imageColContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textColContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailNameContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #F4E003;
+    margin: 0;
+    padding: 0;
+}
+
+.limitedText{
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3EA66B;
+    text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000; 
+}
+
+.mnText{
+    font-family: "NeueRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+
+}
+
+.prdetailCardContainer{
+    width: 90%;
+    background-color: #F5BE49;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+
+.prdetailImageContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prshirtImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+  
+}
+
+.prdetailImageContainer::after {
+    display: var(--display);
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: var(--url);
+    background-size: 200%; /* Adjust zoom level */
+    background-position: var(--zoom-x) var(--zoom-y);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+.prInfoCardContainer, .prInfoYellowContainer {
+    width: 100%; /* Ensure both containers have the same width */
+    background-color: #3EA66B; /* For prInfoCardContainer, adjust the color for prInfoYellowContainer */
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Ensure long words wrap */
+    word-break: break-word; /* Ensure long words break if necessary */
+}
+
+.prInfoYellowContainer{
+    position: relative;
+}
+
+.reddragonContainer{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 2px;
+    right: 5px;
+}
+
+.redstrContainer{
+    position: absolute;
+    width: 7%;
+    height: auto;
+    bottom: 1px;
+    left: -1px;
+}
+
+.prInfoName{
+    font-family: 'Neuenormal';
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.prInfoPrice{
+    font-family: 'Neuebold';
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.ogPrice{
+    font-family: 'Neuebold';
+    color: #F5BE49;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.prInfooff{
+    font-family: 'Neuebold';
+    font-size: 20px;
+    font-weight: 600;
+    color: #F5BE49;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+.selectsizetextContainer{
+    width: 95%;
+    margin-left: 0;
+}
+.selectsizetext{
+    font-family: 'Neuebold';
+    font-size: 20px;
+    font-weight: 700;
+    color: 
+    #DDDBC6;
+    margin: 0;
+    padding: 0;
+    
+}
+.sizesContainer{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+    
+}
+
+.selectSizeButton {
+    width: 44px;
+    height: 44px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.selectSizeButton.active {
+    background-color: #DDDBC6; /* Beige background */
+    color: #E84325; /* Red text */
+}
+
+.selectSizeButton.disabled-size {
+  background-color: #bab1b1; /* Disabled background color */
+  color: black;
+  opacity: 0.4;
+}
+
+
+
+.prOverViewContainer{
+    width: 94%;
+    background-color: #3EA66B;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.prInfoYellowContainer{
+    width: 100%;
+    background-color: #F5BE49;
+}
+
+.prOverViewName{
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F5BE49;
+}
+
+.prOverViewInfo{
+    font-family: 'NeueRegular';
+    font-size: 14px;
+    color: #000;
+}
+
+.cbbuttonContainer{
+    width: 95%;
+    margin-left: 0;
+}
+
+.cbButton{
+    padding: 10px 20px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sizeCartContainer {
+    width: 95%; /* Match the width of cbbuttonContainer */
+    margin-left: 0; /* Align the container to the left */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align the content to the top (start) */
+    justify-content: center; /* Align the content to the left (start) */
+}
+
+.sizecartImage {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.cartButton{
+    background-color: #DDDBC6; /* Red background */
+    color: #E84325; /* Beige text */
+}
+
+.cbButton:hover{
+    background-color: none;
+}
+
+.multiImages{
+    overflow-x: auto; /* Horizontal scroll for small screens */
+}
+
+.rpText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F5BE49;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+}
+
+
+
+@media (min-width: 576px) {
+    .cbButton{
+        font-size: 16px;
+    }
+    .limitedText{
+        font-size: 22px;
+    }
+    .mnText{
+        font-size: 20px;
+    }
+    
+    .prInfoName{
+        font-family: 'Neuenormal';
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .prOverViewInfo{
+        font-family: 'NeueRegular';
+        font-size: 16px;
+        color: #000;
+    }
+
+  }
+
+@media (min-width: 768px) {
+    .prdetailCardContainer{
+        width: 95%;
+    }
+    .selectsizetextContainer{
+        width: 100%;
+    }
+    .prOverViewContainer{
+        width: 98%;
+    }
+    .prInfoCardContainer, .sizesContainer, .cbbuttonContainer, .prInfoYellowContainer{
+        width: 100%;
+        
+    }
+    .sizeCartContainer{
+        align-items: start;
+        justify-content: start;
+    }
+    .multiImages {
+        overflow-y: scroll; /* Vertical scroll for larger screens */
+    }
+    .limitedText{
+        font-size: 24px;
+    }
+    .mnText{
+        font-size: 22px;
+    }
+    .selectsizetextContainer{
+        width: 95%;
+        margin-left: 0;
+    }
+    .cbbuttonContainer{
+        width: 95%;
+        margin-left: 0;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .selectSizeButton {
+        width: 30px;
+        height: 50px;
+        background-color: #E84325; /* Red background */
+        color: #DDDBC6; /* Beige text */
+        border-radius: 5px;
+        box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+        text-align: center;
+        border: none;
+        font-family: "Neuebold", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        
+    }
+      
+    .selectSizeButton.active {
+        background-color: #DDDBC6; /* Beige background */
+        color: #E84325; /* Red text */
+    }
+    .limitedText{
+        font-size: 26px;
+    }
+    .mnText{
+        font-size: 24px;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .limitedText{
+        font-size: 30px;
+    }
+    .mnText{
+        font-size: 24px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .limitedText{
+        font-size: 34px;
+    }
+    .mnText{
+        font-size: 30px;
+    }
+
+  }

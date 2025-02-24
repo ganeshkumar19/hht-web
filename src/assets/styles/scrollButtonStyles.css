@@ -1,0 +1,68 @@
+.scrollButtonContainer {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    z-index: 9000;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.8) 0px 1px 2px 2px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.scrollIcon {
+    color: red;
+    font-size: 15px;
+}
+
+@media (min-width: 576px) {
+    .scrollButtonContainer {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 9000;
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .scrollIcon {
+        color: red;
+        font-size: 18px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .descStoreText{
+        font-size: 16px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .descStoreText{
+        font-size: 14px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .descStoreText{
+        font-size: 22px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .descStoreText{
+        font-size: 24px;
+    }
+}

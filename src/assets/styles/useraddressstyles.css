@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+.userAddressContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color:#DDDBC6;
+    padding-left: 0;
+    min-height: 500px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.newaddressCardContainer{
+    background-color: #57A5BB;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+.saText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #F5BE49;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.noadText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.addressCardContainer{
+    background-color: #3EA66B;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    min-width: 300px;
+}
+
+.wrkText{
+    font-family: "Neuebold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.deleteimage{
+    width: 20px;
+    height: 20px;
+}
+
+.addressInfoContainer p{
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #DDDBC6;
+}
+
+.addressEditContainer button{
+    border: none;
+    background-color: transparent;
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E84325;
+}
+
+.newaddressbutton{
+    padding: 10px 80px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nalabel{
+    font-family: "Neuebold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #DDDBC6;
+}
+
+.newAddressInput{
+    border-radius: 0;
+    font-family: "Neuebold", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+
+}
+
+    @media (min-width: 363px) {
+        
+        .addressCardContainer{
+            min-width: 340px;
+        }
+        .newaddressCardContainer{
+            max-width: 330px;
+        }
+    }
+
+    @media (min-width: 399px) {
+        .newaddressCardContainer{
+            max-width: 380px;
+        }
+       }
+
+
+
+   @media (min-width: 576px) {
+    .addressCardContainer{
+        min-width: 390px;
+    }
+    .addressInfoContainer p{
+        font-size: 16px;
+    }
+    .newaddressCardContainer{
+        min-width: 500px;
+    }
+    .nalabel{
+        font-family: "Neuebold", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        color: #DDDBC6;
+    }
+   }
+   
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .newaddressCardContainer{
+            min-width: 720px;
+        }
+      .addressInfoContainer p{
+            font-size: 18px;
+       }
+       .addressCardContainer{
+        min-width: 600px;
+       }
+       .nalabel{
+        font-family: "Neuebold", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #DDDBC6;
+    }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .newaddressCardContainer{
+            min-width: 780px;
+        }
+  
+    }
+    
+    @media (min-width: 1200px) {
+      
+    }
+    
+    /* Extra extra large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+        .newaddressCardContainer{
+            min-width: 920px;
+        }
+    }

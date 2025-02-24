@@ -1,0 +1,132 @@
+.merchModalContainer .modal-content {
+    width: fit-content;
+    background-color: #57A5BB; /* Blue background */
+    color: white; /* White text color */
+    border-radius: 15px;
+    box-shadow: 13px 13px 0px -1px rgba(0, 0, 0, 0.8);
+}
+
+.merchModalContainer .modal-header,
+.merchModalContainer .modal-body,
+.merchModalContainer .modal-footer {
+    border: none; /* Removes borders inside the modal */
+}
+
+.merchTextContainer{
+    text-align: center;
+    display: flex; /* Use flex to align the text container */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    margin-top: 13px; /* Center content horizontally */
+}
+
+.merchbuycontainer{
+    position: relative;
+}
+
+.dragonContainer{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 62px;
+    right: 0;
+}
+
+.strContainer{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    bottom: 5px;
+    right: 0;
+}
+
+.drcontainerImage, .strcontainerImage{
+    width: 100%;
+    height: auto;
+}
+
+
+.msmerchText{
+    font-family: "Anton", sans-serif;
+    font-weight: 700; 
+    font-size: 24px;
+    margin-top: 10px;
+    color: #F4E003; 
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+}
+
+.msmerchPopText{
+    margin-top: 30px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400; /* Transparent text */
+    font-size: 18px;
+    color: black; /* Adjust font size as needed */
+}
+
+.popmerchButton{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #E84325;
+    text-align: center;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    color: #DDDBC6;
+    font-family: 'NeueBold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.merchposterImageContainer{
+    width: 100%; /* Take full width on small screens */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.merchposterImage{
+    width: 90%; /* Make image take full width of its container */
+    height: 90%;
+    border-radius: 5px; /* Maintain aspect ratio */
+}
+
+@media (min-width: 576px) {
+   }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .merchTextContainer {
+        text-align: left;
+        align-items: flex-start; /* Ensure content aligns to the left */
+    }
+    .msmerchText{
+        font-size: 34px;
+        margin-top: 0;
+    }
+    .msmerchPopText{
+        font-size: 28px;
+    }
+    .msmerchText, .popmerchButton {
+        text-align: left;
+        align-self: flex-start; /* Aligns text and button to the left within the flex container */
+    }
+
+    
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    
+  }

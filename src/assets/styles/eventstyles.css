@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+.eventsContainer{
+    padding-top: 50px;
+    box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 12px;
+    width: 100%;
+    background-color: #57A5BB;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.eventpagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+.eventpagination button[disabled] {
+    color: #666;
+    border-color: #ccc;
+    background-color: #eee;
+  }
+
+
+@media (min-width: 576px) {
+    .nameContainer h3{
+        font-size: 60px;
+        color: #F4E003;
+    }
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .nameContainer{
+        padding: 50px;
+    }
+    .nameContainer h3{
+        font-size: 65px;
+        color: #F4E003;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .nameContainer{
+        padding: 60px;
+    }
+    .nameContainer h3{
+        font-size: 68px;
+        color: #F4E003;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }

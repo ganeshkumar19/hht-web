@@ -1,0 +1,43 @@
+.footerContainer{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.httlogoimage{
+    width: 40%;
+}
+
+.footerIconImage{
+    width: 60%;
+    align-self: center;
+}
+
+.footerparatext{
+    font-family: 'NeueBlack', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .footerparatext{
+        margin-right: 10px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ 
+}
+
+@media (min-width: 1200px) {
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+ 
+}
+

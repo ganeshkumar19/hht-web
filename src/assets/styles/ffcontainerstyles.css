@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.ffContainer{
+    padding-top: 50px;
+    box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 12px;
+    width: 100%;
+    background-color: #d6d6cf;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.ffNameContainer{
+    width: 100%;
+    padding: 40px;
+    background-color: #57A5BB;
+    text-align: center;
+}
+
+.ffNameContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F4E003;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.ouContainer{
+    padding: 15px;
+    background-color: #3EA66B;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+
+}
+
+.ouText{
+    font-family: 'Neuebold', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color:#DDDBC6;
+}
+.ffuContainer{
+    padding: 15px;
+    background-color: #F5BE49;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black; 
+}
+
+.ffuText{
+    font-family: 'Neuebold', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #57A5BB;
+}
+
+@media (min-width: 576px) {
+    .ouText{
+        font-size: 20px;
+    }
+    .ffuText{
+        font-size: 20px;
+    }
+    
+ }
+
+
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+   
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .ouText{
+        font-size: 24px;
+    }
+    .ffuText{
+        font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }

@@ -1,0 +1,64 @@
+
+.emdModalContainer .modal-header,
+.emdModalContainer .modal-body,
+.emdModalContainer .modal-footer {
+    border: none; /* Removes borders inside the modal */
+    background-color: rgb(158, 64, 64);
+}
+
+.emdModalContainer .modal-body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.emdModalContainer .modal-footer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.emdModalContainer .modal-content {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.emdIframe{
+    width: 100%;
+    height: 315px;
+}
+
+@media (min-width: 576px) {
+    .emdIframe{
+        width: 100%;
+        height: 370px;
+    }
+    
+   }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .emdIframe{
+        width: 100%;
+        height: 380px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .emdIframe{
+        width: 100%;
+        height: 400px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .emdIframe{
+        width: 100%;
+        height: 410px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    
+
+  }

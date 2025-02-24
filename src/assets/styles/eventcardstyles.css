@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+
+@font-face {
+    font-family: 'Montezbold';
+    src: url('../fonts/Montezbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueMedium';
+    src: url('../fonts/NeueMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.eventCardContainer {
+    position: relative;
+    width: fit-content;
+    margin: 8px auto; /* Automatically adjust margin on both sides to center it */
+    background-color: #3EA66B;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    border: 2px solid black;
+    transition: all 0.3s ease;
+    padding: 12px; /* Add padding if needed */
+    overflow: hidden; /* Aligns children in the center horizontally */
+}
+
+@media (max-width: 575.98px) {
+    .eventCardContainer {
+        margin: 8px 15px; /* Add a slight margin on left and right sides */
+    }
+}
+
+.cardImageContainer {
+    width: 100%; /* Take full width on small screens */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage {
+    width: 90%; /* Make image take full width of its container */
+    height: 90%; /* Maintain aspect ratio */
+}
+
+.textInfoContainer {
+    text-align: center;
+    display: flex; /* Use flex to align the text container */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    margin-top: 13px; /* Center content horizontally */
+}
+
+.text-details-container {
+    width: 100%; /* Ensure it takes full width */
+    padding: 10px; /* Add some padding */
+}
+.text-details-container h4{
+    font-family: 'Montezbold', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFDB61;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+.text-details-container p{
+    font-family: 'NeueMedium', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-details-container button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #E84325;
+    text-align: center;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dragonEcContainer{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    bottom: 5px;
+    right: 0; 
+}
+
+.drcontainerImage{
+    width: 100%;
+    height: auto;
+}
+
+.machiText{
+  font-family: "Montez", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  transform: rotate(-12deg);
+  color: #DDDBC6;
+}
+
+.areaText{
+    font-family: 'NeueBold', sans-serif;
+    font-weight: 400;
+    color: #F4E003;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+  @media (min-width: 576px) {
+    .cardImage {
+        width: 100%; /* Make image take full width of its container */
+        height: 100%; /* Maintain aspect ratio */
+    }
+   }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .textInfoContainer{
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .text-details-container h4{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    
+    .text-details-container p{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .text-details-container button{
+        padding: 10px 40px;
+        margin-top: 20px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .text-details-container h4{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    
+
+  }

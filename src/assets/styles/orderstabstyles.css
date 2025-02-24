@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'NeueMedium';
+    src: url('../fonts/NeueMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ordertab-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.ordertab-box {
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #E84325;
+    color: white;
+    font-family: "NeueMedium", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.ordertab-container::-webkit-scrollbar {
+    display: none;
+}
+
+.ordertab-box.active { 
+    background-color: #DDDBC6;
+    color: #DC143C;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .ordertab-container::-webkit-scrollbar {
+        display: block;
+        height: 4px;
+    }
+    
+    .ordertab-container::-webkit-scrollbar-thumb {
+        display: block;
+        background: #888;
+    }
+    
+    .ordertab-container::-webkit-scrollbar-thumb:hover {
+        display: block;
+        background: #555;
+    }
+    
+  }
+
+  @media (min-width: 1200px) {
+    .ordertab-box{
+        font-size: 14px;
+    }
+    .ordertab-box.active{
+        font-size: 17px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .ordertab-box{
+        font-size: 20px;
+    }
+    .ordertab-box.active{
+        font-size: 24px;
+    }
+  }

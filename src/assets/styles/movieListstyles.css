@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'TTNorms';
+    src: url('../fonts/TTNorms-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+
+@font-face {
+    font-family: 'TTNormsRegular';
+    src: url('../fonts/TTNorms-Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+.mlContainer{
+    width: 100%;
+    background-color: rgba(255, 255, 250, 0.856);
+    overflow: hidden;
+}
+
+.movieListSwiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    
+}
+.imagesMovieContainer{
+    margin-left: 0;
+}
+  
+.movieListSlider {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.movieListSlider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.movieHeadingText{
+    font-family: "TTNorms", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+}
+
+.movieActorText{
+    font-family: "TTNorms", sans-serif; /* Use the font-family name defined in your @font-face */
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.movieHeadingDate{
+    font-family: "TTNormsRegular", sans-serif; /* Use the font-family name defined in your @font-face */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.date-break {
+    display: none;
+}
+
+
+@media (min-width: 576px) {
+    .movieHeadingText{
+        font-size: 56px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .movieActorText{
+        font-size: 24px;
+        text-align: start;
+    }
+    
+    .movieHeadingDate{
+        text-align: start;
+        font-size: 16px;
+    }
+    .date-break {
+        display: inline;
+    }
+    .movieListSwiper {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .movieHeadingText{
+        font-size: 60px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .movieActorText{
+        font-size: 36px;
+        text-align: start;
+    }
+    
+    .movieHeadingDate{
+        text-align: start;
+        font-size: 20px;
+    }
+    .date-break {
+        display: inline;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .movieHeadingText{
+        font-size: 64px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .movieActorText{
+        font-size: 40px;
+        text-align: start;
+    }
+    .date-break {
+        display: inline;
+    }
+    
+    .movieHeadingDate{
+        text-align: start;
+        font-size: 22px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .movieHeadingText{
+        font-size: 68px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .movieActorText{
+        font-size: 42px;
+        text-align: start;
+    }
+
+   .movieListSwiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+    
+    .movieHeadingDate{
+        text-align: start;
+        font-size: 26px;
+    }
+    .date-break {
+        display: inline;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .movieHeadingText{
+        font-size: 72px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .movieActorText{
+        font-size: 44px;
+        text-align: start;
+    }
+    
+    .movieHeadingDate{
+        text-align: start;
+        font-size: 30px;
+    }
+    .date-break {
+        display: inline;
+    }
+  }

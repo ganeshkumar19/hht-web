@@ -1,0 +1,83 @@
+
+.mailModalContainer .modal-header,
+.mailModalContainer .modal-body,
+.mailModalContainer .modal-footer {
+    border: none; /* Removes borders inside the modal */
+}
+
+.gIconContainer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleIcon {
+    background-color: #57A5BB; /* Background color for the circle */
+    border-radius: 50%;
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleIcon svg {
+    color: white; /* Icon color */
+    font-size: 20px; /* Adjust icon size as needed */
+}
+
+.orContainer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #57A5BB; /* Background color for the circle */
+    border-radius: 50%;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    align-self: center;
+}
+
+.orContainer p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+}
+
+.credentialsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.inputField {
+    width: 100%; /* Take full width */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.signInButton {
+    width: 60%; /* Take full width */
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #57A5BB;
+}
+.memeberContainerText{
+    text-decoration: none;
+    color: black;
+}
+
+.faArrowicon{
+    font-size: 15px;
+    color: black;
+}

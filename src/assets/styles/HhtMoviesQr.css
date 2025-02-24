@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.thankYouContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+  box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 12px;
+  width: 100%;
+  background-color: #57A5BB;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.nameContainer {
+  width: 100%;
+  padding: 40px;
+  background-color: #3EA66B;
+  text-align: center;
+}
+
+.nameContainer h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #F4E003;
+  margin: 0;
+  padding: 0;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; 
+}
+
+@media (min-width: 576px) {
+  .nameContainer h3 {
+    font-size: 60px;
+    color: #F4E003;
+  }
+}
+
+@media (min-width: 768px) {
+  .nameContainer {
+    padding: 50px;
+  }
+  .nameContainer h3 {
+    font-size: 65px;
+    color: #F4E003;
+  }
+}
+
+@media (min-width: 992px) {
+  .nameContainer {
+    padding: 60px;
+  }
+  .nameContainer h3 {
+    font-size: 68px;
+    color: #F4E003;
+  }
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 2em;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input:checked ~ label ~ label {
+  color: #ffd700;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+}

@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+.merchContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    padding-left: 0;
+    min-height: 500px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.merchNameContainer{
+    width: 100%;
+    padding: 40px;
+    background-color: #3EA66B;
+    text-align: center;
+    position: relative;
+}
+
+.merchNameContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F4E003;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+
+}
+
+.cmSoonContainer{
+    min-height: 500px;
+}
+
+.cmSoonContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #DDDBC6;
+    margin: 0;
+    padding: 0;
+}
+
+.cmSoonText{
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+.searchInput {
+    border-radius: 5px;
+    background-color: #DDDBC6;
+    font-size: 14px; /* Change the font size */
+    font-family: 'Neuebold', sans-serif; /* Use custom font */
+}
+
+.searchInput::placeholder {
+    color: #000; /* Change the placeholder color */
+    font-size: 14px; /* Change the font size */
+    font-family: 'Neuebold', sans-serif; /* Use custom font */
+}
+
+.txiContainer{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+}
+
+.textgroupcontainer{
+    background-color: #DDDBC6;
+}
+
+.cbContainer{
+    padding: 4px 8px;
+    border: none;
+    background-color: #E84325;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    
+}
+
+.cbContainer p{
+    font-family: "Neuebold", sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+}
+
+.csmImage{
+    width: 90%;
+}
+
+.shopping-cart{
+    color: #000;
+}
+
+@media (min-width: 576px) {
+    .merchNameContainer h3{
+        font-size: 60px;
+        color: #F4E003;
+    }
+    .csmImage{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .cbContainer p{
+        font-size: 12px;
+    }
+    
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .merchNameContainer{
+        padding: 50px;
+    }
+    .merchNameContainer h3{
+        font-size: 65px;
+        color: #F4E003;
+    }
+    .txiContainer{
+        width: 100%;
+    }
+    .csmImage{
+        width: 60%;
+        margin-left: 20px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .merchNameContainer{
+        padding: 60px;
+    }
+    .merchNameContainer h3{
+        font-size: 68px;
+        color: #F4E003;
+    }
+    .txiContainer{
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }
+

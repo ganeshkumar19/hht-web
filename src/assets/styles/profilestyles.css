@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuelight';
+    src: url('../fonts/Neuelight.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above all other content */
+}
+
+.popupContent {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1001;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.profilePageContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    padding-left: 0;
+    min-height: 500px;
+    background-color:#DDDBC6;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.peContainer{
+    width: 100%;
+    padding: 40px;
+    background-color: #3EA66B;
+    text-align: center;
+}
+
+.peContainer h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F4E003;
+    margin: 0;
+    padding: 0;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+
+}
+
+.logoutButton{
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px -1px rgba(0, 0, 0, 0.8);
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: #E84325;
+    margin-right: 10px;
+}
+
+.ppImageCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppImageContainer{
+    width: 200px;
+    height: 240px;
+    background-color: #57A5BB;
+    border-radius: 60px;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: end; 
+}
+
+
+.apiImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.rpersonImage{
+   margin-top: 15px;
+   height: 180px;
+}
+
+.editPictureIcon{
+    position: absolute;
+    top: 5px;  
+    right: 5px; 
+    background-color: #E84325;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;  
+    cursor: pointer; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.prfContainer{
+    width: 100%;
+}
+
+.prfName{
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+.prfRole{
+    font-family: "Neueregular", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+
+.infoItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center the items horizontally in the container */
+    justify-content: center; /* This will center the items vertically in the container */
+    width: 100%; /* Use full width of the column */
+}
+
+.infoItem {
+    width: 100%; /* Full width to ensure alignment */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Space between title and number */
+    padding: 5px 0; 
+}
+
+.infoTitle, .infoNumber {
+    flex-basis: 50%; /* Each takes up half of the container */
+}
+
+.infoTitle {
+    font-family: "Neuebold", sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.infoNumber {
+    text-align: left;
+    flex-grow: 1; /* Takes available space, ensuring alignment at the start of its container */
+    font-family: "Neuelight", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+    width: 50%;
+}
+
+.ffbutton{
+    padding: 10px 30px;
+    background-color: #E84325; /* Red background */
+    color: #DDDBC6; /* Beige text */
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px -1px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: none;
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer; 
+    display: flex;
+    margin-right: 20px;
+}
+
+.ffBContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ffDownloadContainer{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3EA66B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+
+.addressBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #DDDBC6; /* Change as needed */
+    border: 1px solid black; /* Change as needed */
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+
+  }
+  
+  .addressText {
+    margin-right: 10px;
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#E84325;
+  }
+  
+  .addressIcon {
+    font-size: 1.5em; /* Icon size, adjust as needed */
+  }
+
+@media (min-width: 576px) {
+    .ppImageContainer{
+        width: 250px;
+        height: 300px;
+    }
+
+    .apiImage{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .rpersonImage{
+        width: 100%;
+        height: 80%;
+    }
+  
+    
+    .editPictureIcon{
+        position: absolute;
+        top: 2px;  
+        right: 2px; 
+        font-size: 40px;
+    }
+    .infoTitle {
+       font-size: 18px;
+    }
+    
+    .infoNumber {
+        font-size: 14px;
+    }
+    .prfName{
+        font-size: 20px;
+    }
+    
+    .prfRole{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .editPictureIcon{
+        position: absolute;
+        top: 2px;  
+        right: 2px; 
+        font-size: 40px;
+    }
+    .infoTitle {
+       font-size: 20px;
+    }
+    
+    .infoNumber {
+        font-size: 16px;
+    }
+    .ppImageCol{
+        align-items: start;
+    }
+    .ffBContainer{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .prfName{
+        font-size: 22px;
+    }
+    
+    .prfRole{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+}
+

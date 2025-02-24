@@ -1,0 +1,16 @@
+.gbConatiainer{
+  background-color: black;
+  min-height: 500px;
+  /* position: relative; */
+}
+
+/* .gbImageContainer{
+  position: absolute;
+  top: 0;
+  right: 10px
+} */
+
+.gbImageContainer > img{
+  width: 50px;
+  height: 50px;
+}

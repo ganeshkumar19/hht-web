@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.prCardContainer{
+    width: fit-content;
+    background-color: #F5BE49;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.prImageContainer{
+    width: 100%;
+    height: auto;
+}
+.shirtImage{
+    width: 100%;
+    height: auto;
+}
+
+.prName{
+    font-family: 'Neueregular';
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.prPrice{
+    font-family: 'Neuebold';
+    font-size: 12px;
+    font-weight: 700;
+    color: #476B75;
+    margin: 0;
+    padding: 0;
+}
+
+.ogfrontPrice{
+    color: #000000;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.proff{
+    font-family: 'Neueregular';
+    font-size: 10px;
+    font-weight: 400;
+    color: #26A541;
+    margin: 0;
+    padding:0;
+}
+
+@media (max-width: 575.98px) {
+    .prCardCol {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .prName{
+        font-family: 'Neueregular';
+        font-size: 14px;
+    }
+    
+    .prPrice{
+        font-size: 20px;
+    }
+    .proff{
+        font-size: 16px;
+    }
+    .ogfrontPrice{
+        font-size: 14px;
+    }
+    
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .cartprName{
+        font-size: 26px;
+    }
+
+    .cartprprice{
+        font-size: 30px;
+    }
+    .cartTotalContainer p{
+        font-size: 16px;
+    }
+    
+    .totalAmountContainer p{
+        font-size: 20px;
+    }
+    .deliverText{
+        font-size: 20px;
+    }
+
+    .deliverDateText{
+        font-size: 15px;
+    }
+
+    .changeAddressText{
+        font-size: 18px;
+    }
+    .ssSizeContainer{
+        padding: 2px 10px;
+    }
+    .ssSizeContainer p{
+       font-size: 14px;
+    }
+    .ogfrontPrice{
+        font-size: 16px;
+    }
+}
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .cartprName{
+        font-size: 29px;
+    }
+    .cartprprice{
+        font-size: 32px;
+    }
+    .cartTotalContainer p{
+        font-size: 18px;
+    }
+    
+    .totalAmountContainer p{
+        font-size: 22px;
+    }
+    .deliverText{
+        font-size: 22px;
+    }
+
+    .deliverDateText{
+        font-size: 17px;
+    }
+
+    .changeAddressText{
+        font-size: 20px;
+    }
+    .cartDetailsIcon{
+        margin-top: 13px;
+    }
+    .closeIcon{
+        font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .addressColumn{
+        width: 50%;
+        padding: 15px;
+    }
+    .cartprName{
+        font-size: 32px;
+    }
+    .cartprprice{
+        font-size: 37px;
+    }
+    .cartprprice{
+        font-size: 28px;
+      }
+    .cartmrptext{
+          font-size: 14px;
+     }
+    .cartTotalContainer p{
+        font-size: 18px;
+    }
+    
+    .totalAmountContainer p{
+        font-size: 22px;
+    }
+    .deliverText{
+        font-size: 22px;
+    }
+
+    .deliverDateText{
+        font-size: 17px;
+    }
+
+    .changeAddressText{
+        font-size: 20px;
+    }
+    .paymentProductButton{
+        padding: 10px 40px;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+}

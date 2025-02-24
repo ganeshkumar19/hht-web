@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logoutModal{
+    border-radius: 0 !important;
+}
+
+
+.modalLogoutBody{
+    background-color: #3EA66B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.logoutModal .modal-header,
+.logoutModal .modal-body,
+.logoutModal .modal-footer {
+    border: none;
+    border-radius: 0 !important;/* Removes borders inside the modal */
+}
+
+.logoutModal .modal-content {
+    box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.8); /* Adds shadow around the modal */
+    border: none;
+    border-radius: 0 !important; /* Ensures no border around the modal */
+}
+
+
+.modallogoutfooter{
+    background-color: #3EA66B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: none;
+}
+
+.modalLogoutBody h4{
+    font-family: "Neuebold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #223955;
+} 
+
+.modalLogoutBody p{
+    font-family: "Neueregular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+} 
+
+
+
+.logoutButton{
+    padding: 10px 60px;
+    border-radius: 5px;
+    background-color: #E84325;
+    text-align: center;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    color: #DDDBC6;
+    font-family: 'NeueBold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancelButton{
+    background-color: transparent;
+    border: 1px solid #E84325;
+    color: black;
+}
+
+@media (min-width: 576px) {
+    .modalLogoutBody h4{
+        font-size: 22px;
+    } 
+    
+    .modalLogoutBody p{
+        font-family: "Neueregular", sans-serif;
+        font-size: 20px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .modalLogoutBody h4{
+        font-size: 26px;
+    } 
+    
+    .modalLogoutBody p{
+        font-family: "Neueregular", sans-serif;
+        font-size: 22px;
+    } 
+}

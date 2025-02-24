@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Neueregular';
+    src: url('../fonts/Neueregular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.file-upload-container{
+    padding: 10px;
+    background-color: #3EA66B;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    max-width: 280px;
+}
+
+.fuiContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 260px;
+}
+
+.fileUploadText{
+    font-family: 'Neueregular';
+    font-size: 12px;
+    font-weight: 400;
+    color: #DDDBC6;
+}
+
+.fileNameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding: 6px;
+    background-color: #DDDBC6;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.uploaded-file-name{
+    font-family: 'Neueregular';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.upIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E84325; /* Red background color */
+    width: 32px; /* Size of the icon container */
+    height: 32px;
+    border-radius: 8px; /* Circular shape */
+    color: black; /* White icon */
+  }
+
+@media (min-width: 363px) {
+    .file-upload-container{
+        min-width: 330px;
+    }
+    .uploaded-file-name{
+        font-size: 10px;
+    }
+}
+@media (min-width: 399px) {
+    .file-upload-container{
+        min-width: 380px;
+    }
+    .uploaded-file-name{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .file-upload-container{
+        min-width: 540px;
+    }
+    .uploaded-file-name{
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .file-upload-container{
+        min-width: 720px;
+    }
+    .uploaded-file-name{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .file-upload-container{
+        min-width: 780px;
+    }
+}
+
+  @media (min-width: 1400px) {
+    .file-upload-container{
+        min-width: 920px;
+    }
+  }

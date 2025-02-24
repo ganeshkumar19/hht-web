@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuenormal';
+    src: url('../fonts/Neuenormal.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.careerContainer{
+    padding-top: 50px;
+    box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 12px;
+    width: 100%;
+    background-color: #57A5BB;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+
+.careerParagraph{
+    font-family: "Neuenormal", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ccContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #3EA66B; /* Change as needed */
+    border: 1px solid black; /* Change as needed */
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ccContainerText{
+    margin-right: 5px;
+    font-family: "Neuebold", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:#DDDBC6;
+}
+
+.ccContainerIcon{
+    color: #DDDBC6;
+}
+
+@media (min-width: 576px) {
+    .innerCareerConatiner{
+        padding: 0;
+    }
+    .careerParagraph{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .ccContainerText{
+        margin-right: 5px;
+        font-family: "Neuebold", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color:#DDDBC6;
+    }
+    
+    
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .cphConatiner{
+        padding: 0;
+    }
+    .careerParagraph{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .ccContainerText{
+        margin-right: 5px;
+        font-family: "Neuebold", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color:#DDDBC6;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+   
+  }
+  
+  @media (min-width: 1200px) {
+    
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }

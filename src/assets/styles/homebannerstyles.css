@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homeMainContainer{
+    overflow: hidden;
+}
+
+
+.textBanner{
+    background-color: var(--main-color);
+}
+
+.headerText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 43px;
+    color: #DDDAC5
+}
+
+.loginWlText{
+    font-family: "Montez", cursive;
+    font-weight: 600;
+    font-size: 33px;
+    font-style: normal;
+    color: #DDDBC6;
+}
+
+.bottom-btns img {
+    transition: 0.5s;
+}
+  
+  
+.bottom-btns img:hover {
+    transition: 0.5s;
+    transform: translateY(-6%);
+}
+
+
+.image-box {
+    width: 100%;  /* Adjust based on your layout needs */
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.image-box .lazyimage {
+    width: 100%; /* Makes image responsive within its column */
+    height: auto;
+}
+
+.image-box span{
+    display: block !important;
+}
+  
+.image-box p {
+    margin-top: 8px; /* Space between image and text */
+    color: #fff; /* Adjust color based on your design */
+    font-weight: bold;
+}
+
+.image-container {
+    width: 100%;  /* Adjust based on your layout needs */
+}
+
+.headerParagraph{
+    font-family: "Comic Neue", cursive;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #1E1E1E
+}
+
+
+.loginbtn, .joinbtn{
+    width: 80%;
+    margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .loginbtn, .joinbtn{
+        width: 90%;
+    }
+    .headerText{
+        font-size: 53px;
+    }
+}
+
+@media (min-width: 768px) {
+    .headerText{
+        font-size: 63px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .headerText{
+        font-size: 73px;
+    }
+}
+  
+  
+

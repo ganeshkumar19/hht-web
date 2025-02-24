@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Neuebold';
+    src: url('../fonts/Neuebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.shortFlimContainer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #57A5BB;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    min-height: 1000px;
+}
+
+.barCardContainer{
+    height: auto;
+    border-radius: 5px;
+}
+.sfCardImage{
+    width: 100%;
+    height: auto;
+}
+
+.sfButton{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3EA66B;
+    box-shadow: 3px 3px 0px -1px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    font-family: 'Neuebold';
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    border: 1px solid black;
+}
